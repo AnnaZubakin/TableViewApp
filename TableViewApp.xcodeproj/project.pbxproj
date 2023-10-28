@@ -18,6 +18,7 @@
 		BC5614D92AED628F00FD4F13 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614D82AED628F00FD4F13 /* DetailViewController.swift */; };
 		BC5614DB2AED706500FD4F13 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614DA2AED706500FD4F13 /* MovieTableViewCell.swift */; };
 		BC5614DD2AED718C00FD4F13 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614DC2AED718C00FD4F13 /* MovieTableViewController.swift */; };
+		BC5614DF2AED7FFA00FD4F13 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614DE2AED7FFA00FD4F13 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BC5614D82AED628F00FD4F13 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BC5614DA2AED706500FD4F13 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		BC5614DC2AED718C00FD4F13 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		BC5614DE2AED7FFA00FD4F13 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				BC5614D22AEBDEAF00FD4F13 /* DataManager.swift */,
 				BC5614D42AEBDFFF00FD4F13 /* Song.swift */,
+				BC5614DE2AED7FFA00FD4F13 /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				BC5614DD2AED718C00FD4F13 /* MovieTableViewController.swift in Sources */,
 				BC5614D32AEBDEAF00FD4F13 /* DataManager.swift in Sources */,
+				BC5614DF2AED7FFA00FD4F13 /* Movie.swift in Sources */,
 				BC5614BB2AEBDD5B00FD4F13 /* AppDelegate.swift in Sources */,
 				BC5614DB2AED706500FD4F13 /* MovieTableViewCell.swift in Sources */,
 				BC5614D72AED5C5C00FD4F13 /* TrackTableViewController.swift in Sources */,
