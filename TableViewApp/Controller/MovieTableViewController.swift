@@ -43,6 +43,17 @@ class MovieTableViewController: UITableViewController {
         return 270
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let indexPath = tableView.indexPathForSelectedRow {
+            print("indexPath:", indexPath)
+            // Get the new view controller using segue.destination.
+            guard let detailMovieVC = segue.destination as? DetailMovieViewController else
+            { return }
+            // Pass the selected object to the new view controller.
+            detailMovieVC.movie = movies[indexPath.row]
+        }
+    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

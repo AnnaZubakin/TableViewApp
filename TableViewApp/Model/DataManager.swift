@@ -104,7 +104,7 @@ class DataManager {
     ]
     
     var descriptions = [
-        "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+       "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
         "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
         "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
         "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
@@ -119,7 +119,7 @@ class DataManager {
         "https://www.youtube.com/embed/s7EdQ4FqbhY",
         "https://www.youtube.com/embed/mxphAlJID9U",
         "https://www.youtube.com/embed/EXeTwQWrcwY",
-        "https://www.youtube.com/embed/5DO-nDW43Ik",
+        "https://youtu.be/UaVTIH8mujA?si=2GssjdoPnmYlzgnj",
         "https://www.youtube.com/embed/9O1Iy9od7-A",
         "https://www.youtube.com/embed/r5X-hFf6Bwo",
         "https://www.youtube.com/embed/6hB3S9bIaco"

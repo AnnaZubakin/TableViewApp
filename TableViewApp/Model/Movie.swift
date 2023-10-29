@@ -14,7 +14,9 @@ struct Movie {
     let movieGenres: String
     let releaseYears: Int
     let descriptions: String
-    let movieTrailerUrls: String
+    let movieTrailerUrls: URL?
+  
+    
     
     static func createMovie() -> [Movie] {
         var movies: [Movie] = []
@@ -24,13 +26,17 @@ struct Movie {
         let genres = DataManager.shared.movieGenres
         let years = DataManager.shared.releaseYears
         let descs = DataManager.shared.descriptions
-        let urls = DataManager.shared.movieTrailerUrls
+        let filmurls = DataManager.shared.movieTrailerUrls
+        
         
         for i in 0..<titles.count {
-            let movie = Movie(movieTitles: titles[i], imageNames: images[i], movieGenres: genres[i], releaseYears: years[i], descriptions: descs[i], movieTrailerUrls: urls[i])
+            
+            let movie = Movie(movieTitles: titles[i], imageNames: images[i], movieGenres: genres[i], releaseYears: years[i], descriptions: descs[i], movieTrailerUrls: URL(string: filmurls[i]))
             movies.append(movie)
         }
         
         return movies
     }
 }
+            
+     

@@ -19,6 +19,7 @@
 		BC5614DB2AED706500FD4F13 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614DA2AED706500FD4F13 /* MovieTableViewCell.swift */; };
 		BC5614DD2AED718C00FD4F13 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614DC2AED718C00FD4F13 /* MovieTableViewController.swift */; };
 		BC5614DF2AED7FFA00FD4F13 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614DE2AED7FFA00FD4F13 /* Movie.swift */; };
+		BC5614E12AEE310100FD4F13 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5614E02AEE310100FD4F13 /* DetailMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BC5614DA2AED706500FD4F13 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		BC5614DC2AED718C00FD4F13 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		BC5614DE2AED7FFA00FD4F13 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BC5614E02AEE310100FD4F13 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				BC5614D82AED628F00FD4F13 /* DetailViewController.swift */,
 				BC5614DA2AED706500FD4F13 /* MovieTableViewCell.swift */,
 				BC5614DC2AED718C00FD4F13 /* MovieTableViewController.swift */,
+				BC5614E02AEE310100FD4F13 /* DetailMovieViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				BC5614D72AED5C5C00FD4F13 /* TrackTableViewController.swift in Sources */,
 				BC5614D92AED628F00FD4F13 /* DetailViewController.swift in Sources */,
 				BC5614BD2AEBDD5B00FD4F13 /* SceneDelegate.swift in Sources */,
+				BC5614E12AEE310100FD4F13 /* DetailMovieViewController.swift in Sources */,
 				BC5614D52AEBDFFF00FD4F13 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
